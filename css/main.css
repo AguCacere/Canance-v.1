@@ -41,6 +41,10 @@ header{
     font-size: 18px;
 
 }
+.a{
+    text-decoration: none;
+    color: white;
+}
 
 /*main*/
     /*primeraNoticia*/
@@ -118,7 +122,7 @@ header{
     padding: 50px;
     grid-area: imagenUno;
 }
-/*MERCADOS*/
+/*MERCADOS
 .noticiaMercado{
     color: white;
     padding: 50px;
@@ -183,7 +187,24 @@ header{
     padding: 10px 10px 10px 10px;
     height: 700px;
     height: 700px;
+}*/
+
+.descargaA{
+    background-color: black;
 }
+/*variales bootstrap*/
+.row-12{
+    color: white;
+    text-decoration: none;
+}
+.row{
+    color: white;
+}
+.m-5{
+    color: white;
+}
+
+
     /*PRODUCTOS*/
 .tituloProductos{
     color: white;
