@@ -11,11 +11,17 @@
     <title>mercados</title>
 </head>
 <body class="bg-black">
-   <div class="container-fluid">
-        <header class="container-fluid">
+   <div class="mercados">
+        <header class="">
             <!--inicio menu-->
-            <nav class="nav navbar-black" >
-                <div class="icono"><a class="row-12 "href="/index.html">Canance</a></div>
+            <nav class="navbar navbar-expand-lg">
+                <div class="icono"><a class="icono"href="/index.html">Canance</a></div>
+                <div class="collapse navbar-collapse">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div>
+                </div>
                 <ul class="menu">
                 <li><a href="/index.html">
                     Home
@@ -36,9 +42,9 @@
                 <!--fin menu -->
             </nav>
         </header>
-            <main class="container-fluid">
+            <main>
                 <!--inicio main-->
-                <H1 class="row m-5 ">Tendencia del mercado</H1>
+                <H1 class="tituloMercado ">Tendencia del mercado</H1>
                         <!--carrusel bootstrap-->
                        <div class="row m-5">
                             <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -69,23 +75,23 @@
                             <ul class="menuInfo d-flex justify-content-around m-5 p-5">
                                 <ol>Moneda</ol>
                                 <ol>Ultimo precio</ol>
-                                <ol>Cambios en 24hs</ol>
+                                <ol class="cambios">Cambios en 24hs</ol>
                             </ul>
-                        <div class="container-fluid d-flex justify-content-center m-5">
-                            <li class="monedas row">BNB BNB<span class="precio">$404,7</span><span class="cambios">+2,44%</span></li>
-                            <li class="monedas row">BTC Bitcoin<span class="precio">$42.450</span><span class="cambios">+3.97%</span></li>
-                            <li class="monedas row">ETH Ethereum <span class="precio">$3005</span><span class="cambios">+3,37%</span></li>
-                            <li class="monedas row">Luna Terra <span class="precio">$93,24</span><span class="cambios">-1,65%</span></li>
-                            <li class="monedas row">ADA Cardano <span class="precio">$0,968</span><span class="cambios">+7,93%</span></li>
-                            <li class="monedas row">SOL solana <span class="precio">$91,98</span><span class="cambios">+3,60%</span></li>
+                        <div class="container-fluid m-5">
+                            <li class="monedas">BNB BNB<span class="precio">$404,7</span><span class="cambios">+2,44%</span></li>
+                            <li class="monedas">BTC Bitcoin<span class="precio">$42.450</span><span class="cambios">+3.97%</span></li>
+                            <li class="monedas">ETH Ethereum <span class="precio ">$3005</span><span class="cambios">+3,37%</span></li>
+                            <li class="monedas">Luna Terra <span class="precio">$93,24</span><span class="cambios">-1,65%</span></li>
+                            <li class="monedas">ADA Cardano <span class="precio">$0,968</span><span class="cambios">+7,93%</span></li>
+                            <li class="monedas">SOL solana <span class="precio">$91,98</span><span class="cambios ">+3,60%</span></li>
                         </div>
                         <!--fin menus moneda-->
                     </ul>
-                    <h4 class="tituloMercado container-fluid justify-content-center m-5 p-3">Haz trading desde cualquier lado</h4>
-                        <p class="parrafoMercado d-flex justify-content-center m-5 p-5 ">
+                    <h4 class="tituloMercado">Haz trading desde cualquier lado</h4>
+                        <p class="parrafoMercado">
                             compatible con multiples dispositivos, comienza a hacer trading con mucha seguridad y facilidad
                         </p>
-                    <nav class="menuInfo d-flex justify-content-center m-5">
+                    <nav class="menuInfo ">
                         <li><a class="descargaA btn btn-light m-5" href="https://play.google.com/store/apps/details?id=com.binance.dev">
                             Android
                         </a></li>

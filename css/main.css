@@ -22,6 +22,7 @@ header{
     display: grid;
     font-size: 40px;
     text-decoration: none;
+    margin-left: 5px;
 }
 .menu{
     display: flex;
@@ -122,8 +123,9 @@ header{
     padding: 50px;
     grid-area: imagenUno;
 }
-/*MERCADOS
+ /*MERCADOS*/
 .noticiaMercado{
+    display: grid;
     color: white;
     padding: 50px;
     margin-top: 10px;
@@ -187,7 +189,7 @@ header{
     padding: 10px 10px 10px 10px;
     height: 700px;
     height: 700px;
-}*/
+}
 
 .descargaA{
     background-color: black;
@@ -658,4 +660,26 @@ body{
     justify-content:center ;
     grid-area: footer;
 }
+}
+/*mercados*/
+@media only screen and (max-width: 375px){
+    .icono{
+        display: none;
+    }
+    .cambios{
+        display: none;
+    }
+    .precio{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 480px){
+    .icono{
+        display: none;
+    }
+    .cambios{
+        display: none;
+    }
+
 }
