@@ -1,0 +1,333 @@
+//media quarie del index
+@media only screen and (max-width: 375px){
+    .icono{
+        display: none;
+    }
+    .index{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas: "menu"
+                             "hUno"
+                             "hTres"
+                             "menu"
+                             "footer";
+        
+    }
+    .primeraNoticia{
+        display: grid;
+        grid-area: hUno;
+    }
+    .primerP{
+        display: flex;
+    }
+    .segundoP{
+        display: flex;
+        justify-content: center;
+    }
+    .segundoNoticia{
+        display: grid;
+        grid-area: hDos;
+    }
+    .tercerNoticia{
+        display: flex;
+        justify-items: center;
+    }
+    .tituloTres{
+        grid-area:hTres ;
+        display: grid;
+        text-align: center;
+        
+    }
+    .botonUno{
+        display: none;
+    }
+    .menuDos{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .parteUno{
+        margin: 5px 50px 50px 5px;
+    }
+    .nav{
+        display: grid;
+        grid-area: menu;
+        justify-content: center;
+    }
+    .footer{
+        display: grid;
+        text-align: center;
+        justify-content:center ;
+        grid-area: footer;
+    }
+//mercados
+.icono{
+    display: none;
+}
+.cambios{
+    display: none;
+}
+.precio{
+    display: flex;
+    justify-content: center;
+}
+    }
+    @media only screen and (max-width: 480px){
+        .icono{
+            display: none;
+        }
+        .index{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto auto auto;
+            grid-template-areas: "menu"
+                                 "hUno"
+                                 "hTres"
+                                 "menu"
+                                 "footer";
+            
+        }
+        .primeraNoticia{
+            display: grid;
+            grid-area: hUno;
+        }
+        .primerP{
+            display: flex;
+        }
+        .segundoP{
+            display: flex;
+            justify-content: center;
+        }
+        .segundoNoticia{
+            display: grid;
+            grid-area: hDos;
+        }
+        .tercerNoticia{
+            display: flex;
+            justify-items: center;
+        }
+        .tituloTres{
+            grid-area:hTres ;
+            display: grid;
+            text-align: center;
+            
+        }
+        .botonUno{
+            display: none;
+        }
+        .menuDos{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .parteUno{
+            margin: 5px 50px 50px 5px;
+        }
+        .nav{
+            display: grid;
+            grid-area: menu;
+            justify-content: center;
+        }
+        .footer{
+            display: none;
+            text-align: center;
+            justify-content:center ;
+            grid-area: footer;
+        }
+ //mercados
+ .cambios{
+    display: none;
+}
+    }
+    @media only screen and (max-width: 600px){
+        .icono{
+            display: none;
+        }
+        .index{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto auto auto;
+            grid-template-areas: "menu"
+                                 "hUno"
+                                 "hTres"
+                                 "menu"
+                                 "footer";
+            
+        }
+        .primeraNoticia{
+            display: grid;
+            grid-area: hUno;
+        }
+        .primerP{
+            display: flex;
+        }
+        .segundoP{
+            display: flex;
+            justify-content: center;
+        }
+        .segundoNoticia{
+            display: grid;
+            grid-area: hDos;
+        }
+        .tercerNoticia{
+            display: flex;
+            justify-items: center;
+        }
+        .tituloTres{
+            grid-area:hTres ;
+            display: grid;
+            text-align: center;
+            
+        }
+        .botonUno{
+            display: none;
+        }
+        .menuDos{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .parteUno{
+            margin: 5px 50px 50px 5px;
+        }
+        .nav{
+            display: grid;
+            grid-area: menu;
+            justify-content: center;
+        }
+        .footer{
+            display: none;
+            text-align: center;
+            justify-content:center ;
+            grid-area: footer;
+        }
+    }
+    @media only screen and (max-width: 768px){    
+    .icono{
+        display: none;
+    }
+    .index{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas: "menu"
+                             "hUno"
+                             "hTres"
+                             "menu"
+                             "footer";
+        
+    }
+    .primeraNoticia{
+        display: grid;
+        grid-area: hUno;
+    }
+    .primerP{
+        display: flex;
+        justify-content: center;
+    }
+    .segundoP{
+        display: flex;
+        text-align: center;
+    }
+    .segundoNoticia{
+        display: grid;
+        grid-area: hDos;
+    }
+    .tercerNoticia{
+        display: flex;
+        justify-items: center;
+    }
+    .tituloTres{
+        grid-area:hTres ;
+        display: grid;
+        text-align: center;
+        
+    }
+    .botonUno{
+        display: none;
+    }
+    .menuDos{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .parteUno{
+        margin: 5px 50px 50px 5px;
+    }
+    .nav{
+        display: grid;
+        grid-area: menu;
+        justify-content: center;
+    }
+    .footer{
+        display: none;
+        text-align: center;
+        justify-content:center ;
+        grid-area: footer;
+    }
+    }
+    @media only screen and (max-width:1024px){
+    .icono{
+        display: none;
+    }
+    .index{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas: "menu"
+                             "hUno"
+                             "hTres"
+                             "menuDos"
+                             "footer";
+        
+    }
+    .primeraNoticia{
+        display: grid;
+        grid-area: hUno;
+    }
+    .primerP{
+        display: flex;
+        justify-content: center;
+    }
+    .segundoP{
+        display: flex;
+        text-align: center;
+    }
+    .segundoNoticia{
+        display: grid;
+        grid-area: hDos;
+    }
+    .tercerNoticia{
+        display: flex;
+        justify-items: center;
+    }
+    .tituloTres{
+        grid-area:hTres ;
+        display: grid;
+        text-align: center;
+        
+    }
+    .botonUno{
+        display: flex;
+    }
+    .menuDos{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .parteUno{
+        margin: 5px 50px 50px 5px;
+    }
+    .nav{
+        display: grid;
+        grid-area: menu;
+        justify-content: center;
+    }
+    .footer{
+        display: none;
+        text-align: center;
+        justify-content:center ;
+        grid-area: footer;
+    }
+    }
