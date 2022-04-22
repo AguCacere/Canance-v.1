@@ -23,7 +23,7 @@
   }
   
   .icono {
-    color: white;
+    color: $color-letra;
     display: grid;
     font-size: 40px;
     text-decoration: none;
@@ -42,7 +42,7 @@
       }
   
       a {
-        color: white;
+        color: $color-letra;
         text-decoration: none;
         font-weight: lighter;
         position: sticky;
@@ -57,7 +57,7 @@
   
   .primeraNoticia {
     padding: 50px;
-    color: white;
+    color:$color-letra ;
     font-size: 42px;
     grid-area: primeraNoticia;
   }
@@ -92,14 +92,14 @@
   .segundoP {
     padding: 70px 70px;
     margin: 70px 70px;
-    color: white;
+    color: $color-letra;
     text-align: center;
     background: black;
     font-size: 40px;
   }
   
   .menuDos {
-    color: white;
+    color: $color-letra;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -123,7 +123,7 @@
     padding-left: 110px;
     text-decoration: none;
     text-align: left;
-    color: white;
+    color: $color-letra;
     font-size: 35px;
     grid-area: tituloTres;
   }
@@ -138,7 +138,7 @@
   
   .noticiaMercado {
     display: grid;
-    color: white;
+    color: $color-letra;
     padding: 50px;
     margin-top: 10px;
     text-align: center;
@@ -146,7 +146,7 @@
   }
   
   .menuInfo {
-    color: white;
+    color: $color-letra;
     display: flex;
     justify-content: space-around;
     font-size: 28px;
@@ -155,7 +155,7 @@
   
   .menuMonedas {
     display: flex;
-    color: white;
+    color: $color-letra;
     flex-flow: column;
     margin: 40px 30px 30px;
   }
@@ -179,12 +179,12 @@
   }
   
   .tituloMercado {
-    color: white;
+    color: $color-letra;
     padding: 70px;
   }
   
   .parrafoMercado {
-    color: white;
+    color: $color-letra;
     margin: 20px;
     font-size: 25px;
     padding-left: 20px;
@@ -219,12 +219,12 @@
   /*variales bootstrap*/
   
   .row-12 {
-    color: white;
+    color: $color-letra;
     text-decoration: none;
   }
   
   .row, .m-5 {
-    color: white;
+    color: $color-letra;
   }
   
   /*PRODUCTOS*/
@@ -237,14 +237,14 @@
   }
   
   .parrafoProductos {
-    color: white;
+    color: $color-letra;
     padding-top: 100px;
     padding-left: 20px;
     font-size: 27px;
   }
   
   .parrafoPie {
-    color: white;
+    color: $color-letra;
     text-align: center;
     font-size: 20px;
   }
@@ -265,7 +265,7 @@
   /*NOTICIAS*/
   
   .tituloNoticias {
-    color: white;
+    color: $color-letra;
     display: flex;
     justify-content: center;
     font-size: 50px;
@@ -273,7 +273,7 @@
   }
   
   .noticia {
-    color: white;
+    color: $color-letra;
     font-size: 30px;
     padding: 50px;
   }
@@ -286,13 +286,13 @@
   }
   
   .noticiasDos {
-    color: white;
+    color: $color-letrae;
     padding: 60px;
     font-size: 30px;
   }
   
   .suscribite {
-    color: white;
+    color: $color-letra;
     padding: 20px;
     font-size: 30px;
   }
@@ -304,7 +304,7 @@
   }
   
   label {
-    color: white;
+    color: $color-letra;
   }
   
   .formularioInterior {
@@ -338,7 +338,7 @@
   /*SOBRE NOSOTROS*/
   
   .tituloQuienes {
-    color: white;
+    color: $color-letra;
     text-align: center;
     padding: 40px;
   }
@@ -353,13 +353,13 @@
   }
   
   .tituloConstruir {
-    color: white;
+    color: $color-letra;
     text-align: end;
     padding: 40px;
   }
   
   .tituloInfractuctura {
-    color: white;
+    color: $color-letra;
     text-align: left;
     padding: 40px;
     font-size: 30px;
@@ -370,7 +370,7 @@
   footer {
     border: 2px solid black;
     background-image: -o-linear-gradient(to left, rgb(85, 70, 70), black);
-    color: white;
+    color: $color-letra;
     text-align: center;
     margin: 20px;
     padding: 20px;
