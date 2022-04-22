@@ -8,7 +8,8 @@
 header{
     width: 100%;
     height: 150px;
-    nav{width: 100%;
+    nav{
+        width: 100%;
         display: flex;
         justify-content: space-between;
         padding: 25px;
@@ -92,7 +93,7 @@ header{
             padding-left: 110px;
             text-decoration: none;
             text-align: left;
-            color: white;
+            color: color-letra;
             font-size: 35px;
             grid-area: tituloTres;
         }
@@ -111,7 +112,7 @@ header{
     text-align: center;
     font-size: 45px;
     .menuInfo{
-        color: white;
+        color: $color-letra;
         display: flex;
         justify-content: space-around;
         font-size: 28px;
@@ -141,7 +142,7 @@ header{
         }
 }
 .tituloMercado{
-    color: white;
+    color: $color-letra;
     padding: 70px;
     .parrafoMercado{
         color: white;
@@ -163,29 +164,29 @@ header{
 }
 //Mercados variables bootstrap
 .row-12{
-    color: white;
+    color: $color-letra;
     text-decoration: none;
 }
 .row{
-    color: white;
+    color: $color-letra;
 }
 .m-5{
-    color: white;
+    color: $color-letra;
 }
 //productos
 .tituloProductos{
-    color: white;
+    color: $color-letra;
     display: flex;
     justify-content: center;
     font-size: 50px;
     .parrafoProductos{
-        color: white;
+        color: $color-letra;
         padding-top:100px;
         padding-left: 20px;
         font-size: 27px;
     }
 }.parrafoPie{
-    color: white;
+    color: $color-letra;
     text-align: center;
     font-size: 20px;
 }
@@ -201,13 +202,13 @@ header{
 }
 //noticias
 .tituloNoticias{
-    color: white;
+    color: $color-letra;
     display: flex;
     justify-content: center;
     font-size: 50px;
     padding: 30px;
     .noticia{
-        color: white;
+        color: $color-letra;
         font-size: 30px;
         padding: 50px;
         .parrafoNoticias{
@@ -230,21 +231,21 @@ header{
     }
 }
 .suscribite{
-    color: white;
+    color: $color-letra;
     padding: 20px;
     font-size: 30px;
 }
 .formulario{
-    color: white;
+    color: $color-letra;
     font-size: 25px;
     text-align: center;
 }
 label{
-    color: white;
+    color: $color-letra;
 }
 .formularioInterior{
     padding: 20px;
-    color: whitesmoke;
+    color: $color-letra;
     font-size: 29px;
 }
 .botones{
@@ -268,7 +269,7 @@ label{
 }
 //Sobre nosotros
 .tituloQuienes{
-    color: white;
+    color: $color-letra;
     text-align: center;
     padding: 40px;
     .parrafoQuienes{
@@ -281,12 +282,12 @@ label{
     }
 }
 .tituloConstruir{
-    color: white;
+    color: $color-letra;
     text-align: end;
     padding: 40px;
 }
 .tituloInfractuctura{
-    color: white;
+    color: $color-letra;
     text-align: left;
     padding: 40px;
     font-size: 30px;
@@ -294,7 +295,7 @@ label{
 //footer
 footer{
     border: 2px solid black;
-    color: white;
+    color: $color-letra;
     text-align: center;
     margin: 20px;
     padding: 20px;
