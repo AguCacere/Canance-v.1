@@ -1,7 +1,5 @@
 //media quarie del index
 @media only screen and (max-width: 375px){
-    .icono{
-        display: none;
     }
     .index{
         display: grid;
@@ -12,7 +10,7 @@
                              "hTres"
                              "menu"
                              "footer";
-        
+
     }
     .primeraNoticia{
         display: grid;
@@ -32,11 +30,14 @@
     .tercerNoticia{
         display: flex;
         justify-items: center;
+        margin:10px ;
     }
     .tituloTres{
         grid-area:hTres ;
         display: grid;
         text-align: center;
+        margin: 10px;
+        padding: 10px;
         
     }
     .botonUno{
@@ -50,16 +51,13 @@
     .parteUno{
         margin: 5px 50px 50px 5px;
     }
-    .nav{
-        display: grid;
-        grid-area: menu;
-        justify-content: center;
-    }
     .footer{
         display: grid;
         text-align: center;
-        justify-content:center ;
         grid-area: footer;
+    }
+    .icono{
+        display: none;
     }
 //mercados
 .icono{
@@ -72,8 +70,8 @@
     display: flex;
     justify-content: center;
 }
-    }
-    @media only screen and (max-width: 480px){
+}
+@media only screen and (max-width: 480px){
         .icono{
             display: none;
         }
@@ -203,7 +201,8 @@
             grid-area: footer;
         }
     }
-    @media only screen and (max-width: 768px){    
+    @media only screen and (max-width: 768px){
+  
     .icono{
         display: none;
     }
