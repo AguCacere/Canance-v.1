@@ -1,2 +1,23 @@
 //colores sass
 $color-letra:white;
+//mixin flex
+@mixin flex {
+    display: flex;
+    justify-content: center;
+}
+//mapas
+$botonA:(
+    bg-botonA:#55a630,
+    border-botonA:5px solid #55a630,
+);
+
+$botonB: (
+    bg-botonB:#8c1f37,
+    border-botonB:5px solid #8c1f37
+);
+//extend 
+%borde{
+    border: yellow solid 2.5px;
+    background-color: yellow;
+    color: black;
+}

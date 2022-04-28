@@ -1,6 +1,5 @@
 //media quarie del index
 @media only screen and (max-width: 375px){
-    }
     .index{
         display: grid;
         grid-template-columns: 1fr;
@@ -56,9 +55,40 @@
         text-align: center;
         grid-area: footer;
     }
+nav{
     .icono{
         display: none;
     }
+.checkbtn{
+    display: block
+    
+    ;
+}
+.menu{
+    position: absolute;
+    width: 100px;
+    max-width: 240px;
+    left: -125%;
+    text-align: center;
+    transition: all .5s;
+    display: flex;
+    flex-flow: column;
+}
+}
+nav ul li a{
+    font-size: 20px;
+    justify-content: left;
+    padding-left: 50%;
+    text-align: center;
+}
+}
+#check:checked~ul{
+    left: 0;
+}
+nav ul li{
+    padding-left: 20px;
+    margin-top: 40px;
+}
 //mercados
 .icono{
     display: none;
@@ -70,7 +100,7 @@
     display: flex;
     justify-content: center;
 }
-}
+
 @media only screen and (max-width: 480px){
         .icono{
             display: none;
