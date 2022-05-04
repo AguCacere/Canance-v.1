@@ -1,48 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:wght@100&display=swap");
-.botonUno {
+.botonUno, .comprar {
   border: yellow solid 2.5px;
   background-color: yellow;
   color: black; }
 
-@media only screen and (max-width: 375px) {
-  .index {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto;
-    grid-template-areas: "menu" "hUno" "hTres" "menu" "footer"; }
-  .primeraNoticia {
-    display: grid;
-    grid-area: hUno; }
-  .primerP {
-    display: flex; }
-  .segundoP {
-    display: flex;
-    justify-content: center; }
-  .segundoNoticia {
-    display: grid;
-    grid-area: hDos; }
-  .tercerNoticia {
-    display: flex;
-    justify-items: center;
-    margin: 10px; }
-  .tituloTres {
-    grid-area: hTres;
-    display: grid;
-    text-align: center;
-    margin: 10px;
-    padding: 10px; }
-  .botonUno {
-    display: none; }
-  .menuDos {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; }
-  .parteUno {
-    margin: 5px 50px 50px 5px; }
-  .footer {
-    display: grid;
-    text-align: center;
-    grid-area: footer; }
+@media only screen and (max-width: 480px) {
   nav .icono {
     display: none; }
   nav .checkbtn {
@@ -69,195 +31,215 @@ nav ul li {
   padding-left: 20px;
   margin-top: 40px; }
 
-.icono {
-  display: none; }
+.index {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: "menu" "hUno" "hTres" "menu" "footer"; }
 
-.cambios {
-  display: none; }
+.primeraNoticia {
+  display: grid;
+  grid-area: hUno; }
 
-.precio {
+.primerP {
+  display: flex; }
+
+.segundoP {
   display: flex;
   justify-content: center; }
 
-@media only screen and (max-width: 480px) {
-  .icono {
-    display: none; }
-  .index {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto;
-    grid-template-areas: "menu" "hUno" "hTres" "menu" "footer"; }
-  .primeraNoticia {
-    display: grid;
-    grid-area: hUno; }
-  .primerP {
-    display: flex; }
-  .segundoP {
-    display: flex;
-    justify-content: center; }
-  .segundoNoticia {
-    display: grid;
-    grid-area: hDos; }
-  .tercerNoticia {
-    display: flex;
-    justify-items: center; }
-  .tituloTres {
-    grid-area: hTres;
-    display: grid;
-    text-align: center; }
-  .botonUno {
-    display: none; }
-  .menuDos {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; }
-  .parteUno {
-    margin: 5px 50px 50px 5px; }
-  .nav {
-    display: grid;
-    grid-area: menu;
-    justify-content: center; }
-  .footer {
-    display: none;
-    text-align: center;
-    justify-content: center;
-    grid-area: footer; }
-  .cambios {
-    display: none; } }
+.segundoNoticia {
+  display: grid;
+  grid-area: hDos; }
+
+.tercerNoticia {
+  display: flex;
+  justify-items: center;
+  margin: 20px; }
+
+.tituloTres {
+  grid-area: hTres;
+  display: grid;
+  text-align: center; }
+
+.menuDos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.parteUno {
+  margin: 5px 50px 50px 5px; }
+
+.nav {
+  display: grid;
+  grid-area: menu;
+  justify-content: center; }
+
+.footer {
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  grid-area: footer; }
+
+.activos {
+  display: flex;
+  flex-direction: column; }
+
+.comprar {
+  margin-right: 1000px; }
 
 @media only screen and (max-width: 600px) {
-  .icono {
+  nav .icono {
     display: none; }
-  .index {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto;
-    grid-template-areas: "menu" "hUno" "hTres" "menu" "footer"; }
-  .primeraNoticia {
-    display: grid;
-    grid-area: hUno; }
-  .primerP {
-    display: flex; }
-  .segundoP {
-    display: flex;
-    justify-content: center; }
-  .segundoNoticia {
-    display: grid;
-    grid-area: hDos; }
-  .tercerNoticia {
-    display: flex;
-    justify-items: center; }
-  .tituloTres {
-    grid-area: hTres;
-    display: grid;
-    text-align: center; }
-  .botonUno {
-    display: none; }
-  .menuDos {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; }
-  .parteUno {
-    margin: 5px 50px 50px 5px; }
-  .nav {
-    display: grid;
-    grid-area: menu;
-    justify-content: center; }
-  .footer {
-    display: none;
+  nav .checkbtn {
+    display: block; }
+  nav .menu {
+    position: absolute;
+    width: 100px;
+    max-width: 240px;
+    left: -125%;
     text-align: center;
-    justify-content: center;
-    grid-area: footer; } }
+    transition: all .5s;
+    display: flex;
+    flex-flow: column; }
+  nav ul li a {
+    font-size: 20px;
+    justify-content: left;
+    padding-left: 50%;
+    text-align: center; } }
 
-@media only screen and (max-width: 768px) {
-  .icono {
-    display: none; }
-  .index {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto;
-    grid-template-areas: "menu" "hUno" "hTres" "menu" "footer"; }
-  .primeraNoticia {
-    display: grid;
-    grid-area: hUno; }
-  .primerP {
-    display: flex;
-    justify-content: center; }
-  .segundoP {
-    display: flex;
-    text-align: center; }
-  .segundoNoticia {
-    display: grid;
-    grid-area: hDos; }
-  .tercerNoticia {
-    display: flex;
-    justify-items: center; }
-  .tituloTres {
-    grid-area: hTres;
-    display: grid;
-    text-align: center; }
-  .botonUno {
-    display: none; }
-  .menuDos {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; }
-  .parteUno {
-    margin: 5px 50px 50px 5px; }
-  .nav {
-    display: grid;
-    grid-area: menu;
-    justify-content: center; }
-  .footer {
-    display: none;
-    text-align: center;
-    justify-content: center;
-    grid-area: footer; } }
+#check:checked ~ ul {
+  left: 0; }
+
+nav ul li {
+  padding-left: 20px;
+  margin-top: 40px; }
+
+.index {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: "menu" "hUno" "hTres" "menu" "footer"; }
+
+.primeraNoticia {
+  display: grid;
+  grid-area: hUno; }
+
+.primerP {
+  display: flex; }
+
+.segundoP {
+  display: flex;
+  justify-content: center; }
+
+.segundoNoticia {
+  display: grid;
+  grid-area: hDos; }
+
+.tercerNoticia {
+  display: flex;
+  justify-items: center; }
+
+.tituloTres {
+  grid-area: hTres;
+  display: grid;
+  text-align: center; }
+
+.menuDos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.parteUno {
+  margin: 5px 50px 50px 5px; }
+
+.nav {
+  display: grid;
+  grid-area: menu;
+  justify-content: center; }
+
+.footer {
+  display: none;
+  text-align: center;
+  justify-content: center;
+  grid-area: footer; }
 
 @media only screen and (max-width: 1024px) {
-  .icono {
+  nav .icono {
     display: none; }
-  .index {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto;
-    grid-template-areas: "menu" "hUno" "hTres" "menuDos" "footer"; }
-  .primeraNoticia {
-    display: grid;
-    grid-area: hUno; }
-  .primerP {
-    display: flex;
-    justify-content: center; }
-  .segundoP {
-    display: flex;
-    text-align: center; }
-  .segundoNoticia {
-    display: grid;
-    grid-area: hDos; }
-  .tercerNoticia {
-    display: flex;
-    justify-items: center; }
-  .tituloTres {
-    grid-area: hTres;
-    display: grid;
-    text-align: center; }
-  .botonUno {
-    display: flex; }
-  .menuDos {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; }
-  .parteUno {
-    margin: 5px 50px 50px 5px; }
-  .nav {
-    display: grid;
-    grid-area: menu;
-    justify-content: center; }
-  .footer {
-    display: none;
+  nav .checkbtn {
+    display: block; }
+  nav .menu {
+    position: absolute;
+    width: 100px;
+    max-width: 240px;
+    left: -125%;
     text-align: center;
-    justify-content: center;
-    grid-area: footer; } }
+    transition: all .5s;
+    display: flex;
+    flex-flow: column; }
+  nav ul li a {
+    font-size: 20px;
+    justify-content: left;
+    padding-left: 50%;
+    text-align: center; } }
+
+#check:checked ~ ul {
+  left: 0; }
+
+nav ul li {
+  padding-left: 20px;
+  margin-top: 40px; }
+
+.index {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: "menu" "hUno" "hTres" "menuDos" "footer"; }
+
+.primeraNoticia {
+  display: grid;
+  grid-area: hUno; }
+
+.primerP {
+  display: flex;
+  justify-content: center; }
+
+.segundoP {
+  display: flex;
+  text-align: center; }
+
+.segundoNoticia {
+  display: grid;
+  grid-area: hDos; }
+
+.tercerNoticia {
+  display: flex;
+  justify-items: center; }
+
+.tituloTres {
+  grid-area: hTres;
+  display: grid;
+  text-align: center; }
+
+.menuDos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.parteUno {
+  margin: 5px 50px 50px 5px; }
+
+.nav {
+  display: grid;
+  grid-area: menu;
+  justify-content: center; }
+
+.footer {
+  display: none;
+  text-align: center;
+  justify-content: center;
+  grid-area: footer; }
 
 /* reset  */
 * {
@@ -283,7 +265,8 @@ nav ul li {
   margin-left: 5px; }
 
 .menu {
-  display: flex; }
+  display: flex;
+  list-style: none; }
   .menu li:hover {
     list-style: none;
     padding: 10px;
@@ -306,9 +289,6 @@ nav ul li {
 #check {
   display: none; }
 
-/*.logo{
-    width:150px;
-  }*/
 /*index*/
 /*primeraNoticia*/
 .primeraNoticia {
@@ -377,13 +357,10 @@ nav ul li {
   grid-area: imagenUno; }
 
 /*MERCADOS*/
-.noticiaMercado {
-  display: grid;
-  color: white;
-  padding: 50px;
-  margin-top: 10px;
-  text-align: center;
-  font-size: 45px; }
+.tituloMercado {
+  margin: 70px;
+  display: flex;
+  justify-content: center; }
 
 .menuInfo {
   color: white;
@@ -399,19 +376,17 @@ nav ul li {
   margin: 40px 30px 30px; }
 
 .monedas {
-  padding-bottom: 40px; }
+  padding-bottom: 40px;
+  list-style: none;
+  margin-left: 350px; }
 
 .precio {
   flex-flow: row;
   display: flex;
   justify-content: center;
-  margin-bottom: 2px; }
-
-.cambios {
-  display: flex;
-  flex-flow: row;
-  justify-content: end;
-  margin-right: 200px; }
+  margin-bottom: 2px;
+  margin-right: 510px;
+  justify-content: end; }
 
 .tituloMercado {
   color: white;
@@ -425,15 +400,12 @@ nav ul li {
 
 .menuDescarga {
   display: flex;
-  justify-content: space-around;
-  margin: 100px;
-  padding: 100px; }
+  justify-content: center;
+  padding: 100px;
+  list-style: none; }
 
 .descargaA {
-  color: black;
   text-decoration: none;
-  border: 2px solid whitesmoke;
-  background-color: white;
   font-size: 30px; }
 
 .imagenDos {
@@ -445,6 +417,10 @@ nav ul li {
 .descargaA {
   background-color: black; }
 
+.comprar {
+  text-decoration: none;
+  border-radius: 15px; }
+
 /*variales bootstrap*/
 .row-12 {
   color: white;
@@ -453,18 +429,30 @@ nav ul li {
 .row, .m-5 {
   color: white; }
 
+.carrusel {
+  width: 800px; }
+
 /*PRODUCTOS*/
+.productos {
+  display: grid;
+  grid-template-areas: "titulo" "parrafo" "imagen";
+  grid-template-columns: 1fr, 1fr, 1fr; }
+
 .tituloProductos {
   color: white;
   display: flex;
   justify-content: center;
-  font-size: 50px; }
+  font-size: 50px;
+  grid-area: titulo;
+  display: grid;
+  margin-top: 150px; }
 
 .parrafoProductos {
   color: white;
   padding-top: 100px;
   padding-left: 20px;
-  font-size: 27px; }
+  font-size: 27px;
+  grid-area: parrafo; }
 
 .parrafoPie {
   color: white;
@@ -476,16 +464,23 @@ nav ul li {
   width: 500px;
   height: 400px;
   padding: 20px;
-  margin: 70px; }
+  margin: 70px;
+  grid-area: imagen;
+  display: grid; }
   .imagenTres:hover {
     height: 20px;
     width: 20px; }
 
 /*NOTICIAS*/
+.noticias {
+  display: grid;
+  grid-template-areas: "tituloN" "noticia" "noticiaDos" "suscribite"; }
+
 .tituloNoticias {
   color: white;
   display: flex;
   justify-content: center;
+  margin-top: 80px;
   font-size: 50px;
   padding: 30px; }
 
@@ -543,34 +538,42 @@ label {
   padding: 10px; }
 
 /*SOBRE NOSOTROS*/
+.sobreNosotros {
+  display: grid;
+  grid-template-areas: "tituloQuienes" "construir" "infractuctura"; }
+
 .tituloQuienes {
   color: white;
   text-align: center;
-  padding: 40px; }
+  padding: 40px;
+  grid-area: tituloQuienes;
+  margin-top: 120px; }
 
 .parrafoQuienes {
-  color: #132a13;
+  color: black;
   padding: 30px;
   font-size: 24px;
   border: 4px solid #603140;
   border-radius: 60px;
-  background-color: #fff7f4; }
+  background-color: #d4bfb6; }
 
 .tituloConstruir {
   color: white;
   text-align: end;
-  padding: 40px; }
+  padding: 40px;
+  grid-area: construir; }
 
 .tituloInfractuctura {
   color: white;
   text-align: left;
   padding: 40px;
-  font-size: 30px; }
+  font-size: 30px;
+  grid-area: infractuctura; }
 
 /*footer*/
 footer {
   border: 2px solid black;
-  background-image: -o-linear-gradient(to left, #554646, black);
+  display: grid;
   color: white;
   text-align: center;
   margin: 20px;

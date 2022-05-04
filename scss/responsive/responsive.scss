@@ -1,110 +1,40 @@
 //media quarie del index
-@media only screen and (max-width: 375px){
-    .index{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto auto;
-        grid-template-areas: "menu"
-                             "hUno"
-                             "hTres"
-                             "menu"
-                             "footer";
-
-    }
-    .primeraNoticia{
-        display: grid;
-        grid-area: hUno;
-    }
-    .primerP{
-        display: flex;
-    }
-    .segundoP{
-        display: flex;
-        justify-content: center;
-    }
-    .segundoNoticia{
-        display: grid;
-        grid-area: hDos;
-    }
-    .tercerNoticia{
-        display: flex;
-        justify-items: center;
-        margin:10px ;
-    }
-    .tituloTres{
-        grid-area:hTres ;
-        display: grid;
-        text-align: center;
-        margin: 10px;
-        padding: 10px;
-        
-    }
-    .botonUno{
-        display: none;
-    }
-    .menuDos{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .parteUno{
-        margin: 5px 50px 50px 5px;
-    }
-    .footer{
-        display: grid;
-        text-align: center;
-        grid-area: footer;
-    }
-nav{
-    .icono{
-        display: none;
-    }
-.checkbtn{
-    display: block
-    
-    ;
-}
-.menu{
-    position: absolute;
-    width: 100px;
-    max-width: 240px;
-    left: -125%;
-    text-align: center;
-    transition: all .5s;
-    display: flex;
-    flex-flow: column;
-}
-}
-nav ul li a{
-    font-size: 20px;
-    justify-content: left;
-    padding-left: 50%;
-    text-align: center;
-}
-}
-#check:checked~ul{
-    left: 0;
-}
-nav ul li{
-    padding-left: 20px;
-    margin-top: 40px;
-}
-//mercados
-.icono{
-    display: none;
-}
-.cambios{
-    display: none;
-}
-.precio{
-    display: flex;
-    justify-content: center;
-}
-
 @media only screen and (max-width: 480px){
+    nav{
         .icono{
             display: none;
         }
+    .checkbtn{
+        display: block
+        
+        ;
+    }
+    .menu{
+        position: absolute;
+        width: 100px;
+        max-width: 240px;
+        left: -125%;
+        text-align: center;
+        transition: all .5s;
+        display: flex;
+        flex-flow: column;
+    }
+    }
+    nav ul li a{
+        font-size: 20px;
+        justify-content: left;
+        padding-left: 50%;
+        text-align: center;
+    }
+    }
+    #check:checked~ul{
+        left: 0;
+    }
+    nav ul li{
+        padding-left: 20px;
+        margin-top: 40px;
+    }
+    //index
         .index{
             display: grid;
             grid-template-columns: 1fr;
@@ -134,15 +64,13 @@ nav ul li{
         .tercerNoticia{
             display: flex;
             justify-items: center;
+            margin: 20px;
         }
         .tituloTres{
             grid-area:hTres ;
             display: grid;
             text-align: center;
             
-        }
-        .botonUno{
-            display: none;
         }
         .menuDos{
             display: flex;
@@ -158,21 +86,57 @@ nav ul li{
             justify-content: center;
         }
         .footer{
-            display: none;
+            display: grid;
             text-align: center;
             justify-content:center ;
             grid-area: footer;
         }
  //mercados
- .cambios{
-    display: none;
-}
-    }
-    @media only screen and (max-width: 600px){
+  .activos{
+      display: flex;
+      flex-direction: column;
+  }
+  .comprar{
+    margin-right: 1000px;
+  }
+  
+@media only screen and (max-width: 600px){
+    nav{
         .icono{
             display: none;
         }
-        .index{
+    .checkbtn{
+        display: block
+        
+        ;
+    }
+    .menu{
+        position: absolute;
+        width: 100px;
+        max-width: 240px;
+        left: -125%;
+        text-align: center;
+        transition: all .5s;
+        display: flex;
+        flex-flow: column;
+    }
+    }
+    nav ul li a{
+        font-size: 20px;
+        justify-content: left;
+        padding-left: 50%;
+        text-align: center;
+    }
+    }
+    #check:checked~ul{
+        left: 0;
+    }
+    nav ul li{
+        padding-left: 20px;
+        margin-top: 40px;
+    }
+
+.index{
             display: grid;
             grid-template-columns: 1fr;
             grid-template-rows: auto auto auto;
@@ -183,123 +147,83 @@ nav ul li{
                                  "footer";
             
         }
-        .primeraNoticia{
-            display: grid;
-            grid-area: hUno;
-        }
-        .primerP{
+.primeraNoticia{
+    display: grid;
+    grid-area: hUno;
+}
+.primerP{
             display: flex;
         }
-        .segundoP{
+.segundoP{
             display: flex;
             justify-content: center;
         }
-        .segundoNoticia{
+.segundoNoticia{
             display: grid;
             grid-area: hDos;
         }
-        .tercerNoticia{
+.tercerNoticia{
             display: flex;
             justify-items: center;
         }
-        .tituloTres{
+.tituloTres{
             grid-area:hTres ;
             display: grid;
             text-align: center;
             
         }
-        .botonUno{
-            display: none;
-        }
-        .menuDos{
+.menuDos{
             display: flex;
             align-items: center;
             justify-content: space-between;
         }
-        .parteUno{
-            margin: 5px 50px 50px 5px;
+.parteUno{
+        margin: 5px 50px 50px 5px;
         }
-        .nav{
+.nav{
             display: grid;
             grid-area: menu;
             justify-content: center;
         }
-        .footer{
+.footer{
             display: none;
             text-align: center;
             justify-content:center ;
             grid-area: footer;
+}
+@media only screen and (max-width:1024px){
+    nav{
+        .icono{
+            display: none;
         }
+    .checkbtn{
+        display: block;
     }
-    @media only screen and (max-width: 768px){
-  
-    .icono{
-        display: none;
-    }
-    .index{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto auto;
-        grid-template-areas: "menu"
-                             "hUno"
-                             "hTres"
-                             "menu"
-                             "footer";
-        
-    }
-    .primeraNoticia{
-        display: grid;
-        grid-area: hUno;
-    }
-    .primerP{
+    .menu{
+        position: absolute;
+        width: 100px;
+        max-width: 240px;
+        left: -125%;
+        text-align: center;
+        transition: all .5s;
         display: flex;
-        justify-content: center;
+        flex-flow: column;
     }
-    .segundoP{
-        display: flex;
+    }
+    nav ul li a{
+        font-size: 20px;
+        justify-content: left;
+        padding-left: 50%;
         text-align: center;
     }
-    .segundoNoticia{
-        display: grid;
-        grid-area: hDos;
     }
-    .tercerNoticia{
-        display: flex;
-        justify-items: center;
+    #check:checked~ul{
+        left: 0;
     }
-    .tituloTres{
-        grid-area:hTres ;
-        display: grid;
-        text-align: center;
-        
-    }
-    .botonUno{
-        display: none;
-    }
-    .menuDos{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .parteUno{
-        margin: 5px 50px 50px 5px;
-    }
-    .nav{
-        display: grid;
-        grid-area: menu;
-        justify-content: center;
-    }
-    .footer{
-        display: none;
-        text-align: center;
-        justify-content:center ;
-        grid-area: footer;
-    }
-    }
-    @media only screen and (max-width:1024px){
-    .icono{
-        display: none;
-    }
+    nav ul li{
+        padding-left: 20px;
+        margin-top: 40px;
+    }   
     .index{
         display: grid;
         grid-template-columns: 1fr;
@@ -337,9 +261,6 @@ nav ul li{
         text-align: center;
         
     }
-    .botonUno{
-        display: flex;
-    }
     .menuDos{
         display: flex;
         align-items: center;
@@ -359,4 +280,5 @@ nav ul li{
         justify-content:center ;
         grid-area: footer;
     }
-    }
+
+
