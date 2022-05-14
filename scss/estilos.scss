@@ -163,7 +163,7 @@
     margin-top: 30px;
   }
   
-  .menuMonedas {
+  .activos {
     display: flex;
     color: $color-letra;
     flex-flow: column;
@@ -221,10 +221,7 @@
   .comprar{
     text-decoration: none;
     @extend %borde;
-    border-radius: 15px;
-    
-
-    
+    border-radius: 15px; 
   }
   /*variales bootstrap*/
   
@@ -236,10 +233,7 @@
   .row, .m-5 {
     color: $color-letra;
   }
-  .carrusel{
-    width: 800px;
-  }
-  
+
   /*PRODUCTOS*/
   .productos{
     display: grid;

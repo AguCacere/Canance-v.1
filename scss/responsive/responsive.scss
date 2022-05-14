@@ -96,9 +96,12 @@
       display: flex;
       flex-direction: column;
   }
-  .comprar{
-    margin-right: 1000px;
+
+  //productos
+  .imagenTres{
+      transition: none;
   }
+
   
 @media only screen and (max-width: 600px){
     nav{
